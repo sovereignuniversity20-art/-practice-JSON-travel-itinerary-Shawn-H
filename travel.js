@@ -11,7 +11,8 @@ const summerTrip = {
             "activities": {
                 "name": "Hiking the mountains",
                 "time": "Swimming in the lake"
-            }
+            },
+            "transportation":{}
         },
         "destination2": {
             "location": "Accra, Ghana",
