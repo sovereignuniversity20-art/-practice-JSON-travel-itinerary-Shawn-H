@@ -1,9 +1,11 @@
 const summerTrip = {
     "traveler1": {
         "name": "Shawn",
+
         "contact": {
             "email": "shawntravels@gmail.com", 
             "phone": "314-413-3141"},
+            
         "destination1": {
             "location": "Tokyo, Japan",
             "arrival": "2026-07-05",
@@ -12,8 +14,9 @@ const summerTrip = {
                 "name": "Hiking the mountains",
                 "time": "Swimming in the lake"
             },
-            "transportation":{}
+            "transportation":{"mode": "flight", "cost": 1500}
         },
+
         "destination2": {
             "location": "Accra, Ghana",
             "arrival": "2027-01-31",
@@ -21,14 +24,28 @@ const summerTrip = {
             "activities": {
                 "name": "Hiking the volcano",
                 "time": "Shopping in the merchant district"
-            }
-    }   
+            },
+            "transportation":{"mode": "Bus", "cost": 50}
+        },
+
+        "destination3": {
+            "location": "Toronto, Canada",
+            "arrival": "2027-06-31",
+            "departure": "2027-07-14",
+            "activities": {
+                "name": "Visit Niagara Falls",
+                "time": "10:00"
+            },
+            "transportation":{"mode": "Car", "cost": 80}
+        }
 },
     "traveler2": {
         "name": "Denecia",
+
         "contact": {
             "email": "deedeetravels@gmail.com", 
             "phone": "314-523-3231"},
+
         "destination1": {
             "location": "Tokyo, Japan",
             "arrival": "2026-07-05",
@@ -36,8 +53,10 @@ const summerTrip = {
             "activities": {
                 "name": "Shopping downtown",
                 "time": "Dinner on the rooftop"
-            }
+            },
+            "transportation":{"mode": "flight", "cost": 1500}
         },
+
         "destination2": {
             "location": "Accra, Ghana",
             "arrival": "2027-01-31",
@@ -45,7 +64,19 @@ const summerTrip = {
             "activities": {
                 "name": "Hiking the volcano",
                 "time": "Shopping in the merchant district"
-            }
-    }   
-}
+            },
+            "transportation":{"mode": "Bus", "cost": 50}
+    },
+
+    "destination3": {
+            "location": "Toronto, Canada",
+            "arrival": "2027-06-31",
+            "departure": "2027-07-14",
+            "activities": {
+                "name": "Visit Niagara Falls",
+                "time": "10:00"
+            },
+            "transportation":{"mode": "Car", "cost": 80}
+        }
+    }
 }
